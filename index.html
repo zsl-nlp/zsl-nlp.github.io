@@ -50,120 +50,30 @@
                 Department of Computer Science
             </p>
             <p>Office: 55-B122</p>
-            <p><a href="mailto:yitao@tju.edu.cn">zhushaolin@tju.edu.cn</a></p>
+            <p><a href="mailto:zhushaolin@tju.edu.cn">zhushaolin@tju.edu.cn</a></p>
             <p>Tianjin, China</p>
-            <p><a href="#">中文主页</a></p>
         </div>
         <div>
-            <h2>About me</h2>
-            <p>I am a tenure-track assistant professor in Department of Computer Science at Tianjin University, and a member of <a href="#">TANK Lab</a>, led by Prof. Keqiu Li. I received my Ph.D. degree from Networked Systems Lab at University of Southern California, advised by Prof. Ramesh Govindan. I obtained my B.S. degree at Shanghai Jiao Tong University, advised by Prof. Xinbing Wang.</p>
-            <p>My research interests include large language model (LLM) systems, deep neural network (DNN) systems, performance analysis and optimization, parallel and distributed computing. My recent work delves into developing inference systems capable of deploying LLM and DNN models in large-scale cloud clusters, aiming for peak performance, efficiency and scalability through innovative techniques such as computational acceleration, parallel optimization, and resource orchestration. In collaboration with research institutions like IBM Watson, Samsung Research and Microsoft Research, I have published tens of papers at the leading conferences/journals, including SoCC, Ubicomp, INFOCOM, IWQoS, ASPLOS, SIGCOMM and TPDS. My research has been funed by NSFC, etc. I have received honors such as Outstanding Young Academic Talent Award from Tianjin University and <span style="font-weight:bold;">Best Paper Award from SoCC'24</span>.</p>
-             <p>Recently, I am actively developing Twen.ai, the very first university Q&A large language model. Empowered by RAG techniques, Twen addresses daily questions from students and faculties in areas such as daily life, scholarship selection, further studies, etc. Twen is officially released in April 2024, and serves thousands of requests each day since then.</p>
-            <p>I am looking for self-motivated students interested in building systems for large language model and deep neural network. Feel free to <a href="mailto:your_email@example.com">drop me an email</a> if you want to join us!</p>
-            <h2>Research</h2>
-            <p>My research is aiming to build inference systems capable of deploying LLM and DNN models in large-scale cloud clusters with peak performance, efficiency and scalability.</p>
-            <h3>Large Language Model System</h3>
-            <p>Seving Classic LLM: Serving LLM applications brings new challenges due to their huge memory consumption and unpredictable output length. We designed novel LLM inference systems (qLLM, tgLLM) to minimize job completion time across LLM requests and to maximize model throughput and resource utilization. We also built various inference systems (InferRAG, InferMM) to manage computation resources under scenarios such as RAG and multi-modal.</p>
-            <p>Serving Specialized LLM: Recent innovations in LLM architecture also bring new challenges. We designed specialized inference systems (SpecInfer, ParaMoE) to optimize the inference pipeline for speculative decoding and mixture of expert. Besides, we also investigated interesting topics such as lookahead decoding, LoRA serving, kv-cache optimization, etc.</p>
-            <h3>Deep Neural Network System</h3>
+            <p>I am a tenure-track Associate Professor in Department of Computer Science at Tianjin University, and a member of <a href="#">TJUNLP Lab</a>, led by Prof. Deyi Xiong. I received my Ph.D. degree from University of Chinese Academic of Science.
+            My research interests include Natural Language Processing, Multimodal Processing, Machine Translation.  
+            I am looking for self-motivated students interested in building systems for large language model and deep neural network. Feel free to <a href="zhushaolin@tju.edu.cn">zhushaolin@tju.edu.cn</a> if you want to join us!</p>
         </div>
     </div>
 
        <div class="container">
-          <div>
-            <h3>Latency Sensitive Inference</h3>
-            <p>To guarantee good user experiences, DNN-based applications are usually associated with a latency objective. We designed various model orchestration systems (Harpagon, DeepLat, TopInfer) to minimize the serving cost under latency objective via techniques such as dynamic batching, request dispatching and configuration decoupling. We also built various resource scaling systems (SLOpt, DeepChain) to maximize system goodput under bursty workload via techniques such as AoT compilation and model pre-warmup.</p>
-             <h3>Complex Scenario</h3>
-            <p>Given the use cases, DNN-based applications face various deployment requirements. We have designed multi-stage inference systems (Scrooge, Rim, Olympian) to manage DNN models in edge/cloud GPU clusters via techniques such as model co-location and model promotion. We also built specialized systems (ALPS, HRL) to handle complex scenario such as multi-modal input and heterogeneous hardware.</p>
-           <img src="placeholder_architecture.png" alt="架构图" />
-           </div>
            <div>
              <h2>Selected Publications</h2>
             <ul class="publication-list">
-               <li><span class="small-text">[INFOCOM 25]</span> <a href="#">Harpagon: Minimizing DNN Serving Cost via Efficient Dispatching, Scheduling and Splitting</a> (CCF-A)</li>
-                <li><span class="small-text">[INFOCOM 25]</span> <a href="#">Lark: A Buffer-aware Building Block for Programmable Packet Scheduling in Datacenters</a> (CCF-A)</li>
-                <li><span class="small-text">[SoCC 24]</span> <a href="#">Pre-Warming is Not Enough: Accelerating Serverless Inference With Opportunistic Pre-Loading</a> (CCF-B, <span style="font-weight:bold;">Best Paper Award</span>)</li>
-               <li><span class="small-text">[SIGCOMM 24]</span> <a href="#">PPT: A Pragmatic Transport for Datacenters</a> (CCF-A)</li>
-               <li><span class="small-text">[ASPLOS 24]</span> <a href="#">FUYAO: DPU-enabled Direct Data Transfer for Serverless Computing</a> (CCF-A)</li>
-                <li><span class="small-text">[IWQoS 23]</span> <a href="#">High-throughput Sampling, Communicating and Training for Reinforcement Learning Systems</a> (CCF-B)</li>
-                 <li><span class="small-text">[TPDS 23]</span> <a href="#">Accelerating Data Delivery of Latency-Sensitive Applications in Container Overlay Network</a> (CCF-A)</li>
-                  <li><span class="small-text">[SoCC 21]</span> <a href="#">Scrooge: A Cost-Effective Deep Learning Inference System</a> (CCF-B)</li>
-                  <li><span class="small-text">[Middleware 18]</span> <a href="#">Olympian: Scheduling GPU Usage in a Deep Neural Network Model Serving System</a> (CCF-B)</li>
-                  <li><span class="small-text">[Ubicomp 16]</span> <a href="#">ALPS: Accurate Landmark Positioning at City Scales</a> (CCF-A)</li>
-                  <li><span class="small-text">[INFOCOM 14]</span> <a href="#">Critical Sensing Range for Mobile Heterogeneous Camera Sensor Networks</a> (CCF-A)</li>
-            </ul>
-            <h2>Honors and Awards</h2>
-            <ul>
-                <li>Best Paper Award, SoCC, 2024</li>
-                <li>Outstanding Young Academic Talent Award, Tianjin University, 2024</li>
-                <li>Qiming Scholar, Tianjin University, 2023</li>
-                <li>Chun-Tsung Scholar (1st at SJTU), Shanghai Jiao Tong University, 2014</li>
-                <li>Valedictorian at SEIEE, Shanghai Jiao Tong University, 2014</li>
-            </ul>
-            <h2>Teaching</h2>
-            <ul>
-                <li>Computer Systems, TJU, 23Spring, 24Spring</li>
-                <li>Design and Analysis of Algorithms, TJU, 23Fall</li>
-                <li>Introduction to Internetworking, USC, 16Spring</li>
-            </ul>
+               <li><span class="small-text">[AAAI2025]</span> <a href="#">LRM-LLaVA: Overcoming the Modality Gap of Multilingual Large Language-Vision Model for Low-Resource Languages</a> (CCF-A)[通讯作者]</li>
+                <li><span class="small-text">[COLING 25]</span> <a href="#">MIT-10M: A Large Scale Parallel Corpus of Multilingual Image Translation</a> (CCF-B)[通讯作者]</li>
+                <li><span class="small-text">[COLING2024]</span> <a href="#">Towards Robust In-Context Learning for Machine Translation with Large Language Models</a> (CCF-B, <span style="font-weight:bold;">Outstanding Paper</span>)[一作]</li>
+               <li><span class="small-text">[ACL 24]</span> <a href="#"> LANDeRMT: Dectecting and Routing Language-Aware Neurons for Selectively Finetuning LLMs to Machine Translation</a> (CCF-A)[一作]</li>
+               <li><span class="small-text">[Tsinghua Science and Technology, 2024]</span> <a href="#">Enhancing Aspect-based Sentiment Analysis in Tourism using Large Language Models and Positional Information</a> (中科院一区)[通讯作者]</li>
+                <li><span class="small-text">[Information Processing & Management, 2024]</span> <a href="#">FEDS-ICL: Enhancing translation ability and efficiency of large language model by optimizing demonstration selection</a> (中科院一区)[一作]</li>
+                 <li><span class="small-text">[Expert Systems with Applications, 2024]</span> <a href="#">Vision-Guided Target-Side Future Context Learning for Multimodal Machine Translation</a> (中科院一区)[一作]</li>
+                  <li><span class="small-text">[ACL2023]</span> <a href="#">PEIT: Bridging the Modality Gap with Pre-trained Models for End-to-End Image Translation</a> (CCF-A)[一作]</li>  
+            </ul>            
         </div>
        </div>
-        <h2>Students</h2>
-        <div class="flex-row">
-          <div>
-            <h3>PhD Students</h3>
-            <ul>
-                <li>Zhixin Zhao (2022 - Now)<sup>1</sup></li>
-                <li>Guotao Yang (2023 - Now)<sup>1</sup></li>
-                <li>Liang Zheng (2024 - Now)<sup>2</sup></li>
-            </ul>
-          </div>
-           <div>
-             <h3>Master Students</h3>
-                <ul>
-                  <li>Jiaheng Gao (2022 - Now)</li>
-                    <li>Linxuan Li (2022 - Now)</li>
-                    <li>Ziqi Gong (2023 - Now)</li>
-                </ul>
-           </div>
-       </div>
-        <div class="flex-row">
-         <div>
-            <h3>Undergraduate Students</h3>
-            <ul>
-                <li>Chen Shen (2023 - Now)</li>
-                <li>Jingyuan Xiao (2024 - Now)</li>
-                 <li>Jinjun Yi (2024 - Now)</li>
-                  <li>Zhengchao Wang (2024 - Now)<sup>2</sup></li>
-                  <li>Tao Wang (2024 - Now)<sup>1</sup></li>
-                <li>Wenxin Zhu (2023 - Now)</li>
-                 <li>Mingfang Ji (2023 - Now)</li>
-                   <li>Kai Zeng (2023 - Now)</li>
-                    <li>Zhenyi Zhong (2024 - Now)</li>
-                      <li>Ke Wang (2024 - Now)</li>
-                         <li>Junhao Li (2024 - Now)</li>
-                       <li>Hao Ding (2024 - Now)</li>
-                        <li>Junhui Zheng (2024 - Now)</li>
-                          <li>Rui Guo (2024 - Now)</li>
-                            <li>Hao Chen (2024 - Now)</li>
-                            <li>Yang Lin (2024 - Now)</li>
-                             <li>Yang Cheng (2024 - Now)</li>
-                              <li>Yongfeng Wang (2024 - Now)</li>
-                              <li>Shi Chen (2024 - Now)</li>
-            </ul>
-         </div>
-          <div>
-             <h3>Alumni</h3>
-              <ul>
-                 <li>Yingqin Chen (MS, 2024)<sup>2</sup> -> China Mobile</li>
-                  <li>Jingyuan Xiao (BS, 2024) -> MS at TJU</li>
-              </ul>
-               <p><small><sup>1</sup> co-advised with Prof. Wenyu Qu</small><br/> <small><sup>2</sup> co-advised with Prof. Keqiu Li</small> </p>
-          </div>
-      </div>
-
-
-    <p style="margin-top: 20px;"><a href="https://flashserve.org">https://flashserve.org</a></p>
-    <p style="text-align:right; margin-top:20px;">Updated: 2024/12/18 16:41</p>
 </body>
 </html>
